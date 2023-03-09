@@ -1,0 +1,55 @@
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Outfit, Arial, Helvetica, sans-serif;
+  }
+  
+  body{
+      background-color: hsl(212, 45%, 89%);
+  }
+
+  .frame{
+      width: 330px;
+      height: 530px;
+      margin: 2rem auto;
+      padding: 1rem;
+      box-shadow: 0 5px 40px rgba(0,0,0,0.2);
+      background: white;
+      border-radius: 20px;
+  }
+  .qrImg{
+      height: 290px;
+      display: flex;
+      border-radius: 12px;
+      height: 295px ;
+      margin: auto;
+  }
+  
+  .content{
+      /*background: brown;*/
+      height: 230px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+  
+  .content h1{
+      color: hsl(218, 44%, 22%);
+  }
+  .content p{
+      margin: 1rem auto;
+      color: hsl(220, 15%, 55%);
+  }
